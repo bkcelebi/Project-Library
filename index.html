@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="./index.js" defer></script>
+    <title>Project: Library</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/5c9a0150f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>LIBRARY</h1>
+        <div class="logIn">
+          <a href="#" >Log in</a>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="sideBar">
+          <form>
+            <fieldset>
+              <legend>Add a Book</legend>
+              <input type="text" id="title" name="title" placeholder="Title" />
+              <input
+                type="text"
+                id="author"
+                name="author"
+                placeholder="Author"
+              />
+              <input
+                type="number"
+                id="pages"
+                name="pages"
+                placeholder="Pages"
+              />
+            </fieldset>
+            <fieldset>
+              <legend class="textAlign">Have you read it?</legend>
+              <div class="radioBtn">
+                <div>
+                  <input type="radio" id="yes" name="isRead" value="read" />
+                  <label for="yes">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="no" name="isRead" value="notRead" />
+                  <label for="no">No</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="formBtn">
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="mainContent">
+          <h2>Books</h2>
+
+          <div class="mainContentContainer">
+            <div class="card">
+              <div class="title">
+                <div class="firstCardColumn">Title:</div>
+                <div class="secondCardColumn">
+                  asdasdsasdasdsasdasdsasdasdsasdasdsasd
+                </div>
+              </div>
+              <div class="author">
+                <div class="firstCardColumn">Author:</div>
+                <div class="secondCardColumn">
+                  Autho1Autho1Autho1Autho1Autho1Autho1
+                </div>
+              </div>
+              <div class="page">
+                <div class="firstCardColumn">Page:</div>
+                <div class="secondCardColumn">1234</div>
+              </div>
+              <div class="read">
+                <div class="firstCardColumn">Read:</div>
+                <button class="secondCardColumn statusRead">Yes</button>
+              </div>
+              <div class="remove">
+                <button>Remove</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="title">
+                <div class="firstCardColumn">Title:</div>
+                <div class="secondCardColumn">
+                  asdasdsasdasdsasdasdsasdasdsasdasdsasd
+                </div>
+              </div>
+              <div class="author">
+                <div class="firstCardColumn">Author:</div>
+                <div class="secondCardColumn">
+                  Autho1Autho1Autho1Autho1Autho1Autho1
+                </div>
+              </div>
+              <div class="page">
+                <div class="firstCardColumn">Page:</div>
+                <div class="secondCardColumn">1234</div>
+              </div>
+              <div class="read">
+                <div class="firstCardColumn">Read:</div>
+                <button class="secondCardColumn statusNotRead">No</button>
+              </div>
+              <div class="remove">
+                <button>Remove</button>
+              </div>
+            </div>
+
+            
+    
+          </div>
+      </div>
+
+    </div>
+    <div class="footer">
+        <p class="copyright">
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+        <a href="https://github.com/bkcelebi" target="_blank">
+          <img src="./assets/reSizedFooterLogo.png" alt="logo" height="25px" />
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+  </body>
+</html>
