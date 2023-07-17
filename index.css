@@ -237,6 +237,10 @@ h2 {
   align-items: center;
 }
 
+.title .secondCardColumn {
+  text-transform: uppercase;
+}
+
 button.secondCardColumn {
   border: none;
   border-radius: 0.5rem;
