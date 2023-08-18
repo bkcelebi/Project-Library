@@ -1,15 +1,12 @@
 # Project-Library
 
-1- If you haven’t already, set up your project with skeleton HTML/CSS and JS files.
+This project for the Fullstack Javascript Module on The Odin Project is meant to display our knowledge of objects that was taught in the previous lessons. The app allows users to create cards containing info on "books" they have read or want to read and displays them. Each "book" card has a toggle to switch the read status from read to unread and a button to remove the card.
 
-2- All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user’s input and store the new book objects into an array.
+## Tools Used
 
-3- Write a function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own “card”. It might help for now to manually add a few books to your array so you can see the display.
-
-4- Add a “NEW BOOK” button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it’s been read and anything else you might want. You will most likely encounter an issue where submitting your form will not do what you expect it to do. That’s because the submit input tries to send the data to a server by default. If you’ve done the bonus section for the calculator assignment, you might be familiar with event.preventDefault();. Read up on the event.preventDefault documentation again and see how you can solve this issue!
-
-5- Add a button on each book’s display to remove the book from the library.
-You will need to associate your DOM elements with the actual book objects in some way. One easy solution is giving them a data-attribute that corresponds to the index of the library array.
-
-6- Add a button on each book’s display to change its read status.
-To facilitate this you will want to create the function that toggles a book’s read status on your Book prototype instance.
+<p align="left">
+  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="32" height="32" /> 
+  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="32" height="32" /> 
+  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="32" height="32" />
+  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="32" height="32" /> 
+</p>
